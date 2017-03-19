@@ -6,6 +6,8 @@
 <suite name="SuiteOne" >
 
     <test name="Test" >
+        <parameter name="browser" value="${browser}"> </parameter>
+
         <classes>
             <class name="com.pranav.learn.PranavFirstTestNg"/>
         </classes>
